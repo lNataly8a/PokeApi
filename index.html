@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéFavoritos</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PokéFavoritos</h1>
+
+    <input type="text" id="nombrePokemon" placeholder="Escribe un Pokémon..." />
+    <button class="btn-pokeball-cuadrado" onclick="buscarPokemon()">Buscar</button>
+    <div id="resultado"></div>
+    <button class="btn-pokeball-cuadrado2" onclick="guardarPokemonFavorito()">Guardar como favorito</button>
+    <h2>Favoritos</h2>
+    <div id="favoritos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
